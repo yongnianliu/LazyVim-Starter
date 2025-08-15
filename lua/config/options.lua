@@ -16,6 +16,7 @@ else
     },
   }
 end
+vim.o.guifont = "JetBrainsMono Nerd Font"
 vim.api.nvim_set_keymap("i", "jj", "<ESC>", { noremap = true, silent = true })
 -- vim.api.nvim_set_keymap("i", "<C-H>", "<Left>", { noremap = true, silent = true })
 -- vim.api.nvim_set_keymap("i", "<C-J>", "<Down>", { noremap = true, silent = true })
